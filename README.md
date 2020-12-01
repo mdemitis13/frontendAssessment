@@ -26,7 +26,7 @@ There are a set of things that are important to them long term that should be co
 
 ### Technical Requirements
 
-- Data should be persisted if you refresh the browser. This could be to device storage, setup a firebase instance, or develop your own api with a database. **Document the approach**
+- Data should be persisted if you refresh the browser. This could be to device storage, setup a firebase instance, or develop your own api with a database. Be sure to document your approach and how to test it.
 - Each page that is routed to should be in it's own module and lazy loaded
 - Supports the latest versions of Chrome and Safari, iPhone and Android
 - Code should be built in a way that is scalable so the project can easily continue to the next phase.
